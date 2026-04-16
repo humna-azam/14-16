@@ -1,0 +1,134 @@
+// Problem 1:
+let studentnames = [];
+
+// Problem 2:
+let student_namess = new Array ();
+
+// Problem 3:
+let student_namesss = ["abc","def","ghi"];
+console.log(student_names);
+
+// Problem 4:
+let numbers = [1,2,3,4,5];
+console(numbers);
+
+// Problem 5:
+let condition = ['True','False'];
+console(condition);
+
+// Problem 6:
+let mixed_array = ["sara",1];
+console.log(mixed);
+
+// Problem 7:
+let education = ["SSC","HSC","BCS","BS","BCOM","MS","M.Phil","PhD"];
+document.writeln("<h1>Qualifications: </h1> <br>");
+document.writeln("1)" + education[0]+"<br>");
+document.writeln("2)" + education[1]+"<br>");
+document.writeln("3)" + education[2]+"<br>");
+document.writeln("4)" + education[3]+"<br>");
+document.writeln("5)" + education[4]+"<br>");
+document.writeln("6)" + education[5]+"<br>");
+document.writeln("7)" + education[6]+"<br>");
+document.writeln("8)" + education[7]+"<br>");
+
+// Problem 8:
+let student_names = ["Michael", "John", "Tony"];
+let score = [320, 230, 480];
+
+document.writeln("Score of " + student_names[0] + " is " + score[0] + ". Percentage: 64%<br>");
+document.writeln("Score of " + student_names[1] + " is " + score[1] + ". Percentage: 46%<br>");
+document.writeln("Score of " + student_names[2] + " is " + score[2] + ". Percentage: 96%<br>");
+
+// Problem 9:
+let color = ["Red", "blue", "green"];
+document.writeln(color + "<br>");
+
+// a
+let user_color = prompt("Which color do you want to add at the start?");
+color.unshift(user_color);
+document.writeln(color + "<br>");
+
+// b
+let user_colorend = prompt("Which color do you want to add at the end?");
+color.push(user_colorend);
+document.writeln(color + "<br>");
+
+// c
+color.unshift("purple", "orange");
+document.writeln(color + "<br>");
+
+// d (Delete first color)
+color.shift();
+document.writeln(color + "<br>");
+
+// e(Delete last color)
+color.pop();
+document.writeln(color + "<br>");
+
+f 
+let indexToAdd = prompt ("which index you want to add color");
+let colorrName = prompt ("Enter the color name to add:");
+color.splice(indexToAdd,0,colorName);
+document.writeln("Updated arry:" + color + "<br>");
+
+g 
+let indexTodelete = prompt ("which index you want to delete color");
+let colorName = prompt ("How many colors you want to delete:");
+color.splice(indexTodelete,colorName);
+document.writeln("Updated arry:" + color + "<br>");
+
+// Problem 10
+let scores = [320,230,480,120];
+document.writeln("Scores of students: " + scores +"<br>");
+scores.sort();
+document.writeln("Ordered scores of students: " + scores + "<br>");
+
+// Problem 11
+let cities = ["Karachi","Lahore","Islamabad","Quetta","Peshawar"];
+document.writeln("Cities list: <br>" + cities + "<br><br>");
+let selectedCities = cities.splice(2,2);
+document.writeln("Selected cities list:" + "<br>" + selectedCities + "<br>");
+
+// Problem 12
+document.writeln("Array: <br>");
+var arr = ["This","is","my","cat" + "<br><br>"];
+document.writeln(arr);
+document.writeln("String: <br>");
+let newArr = arr.join(" ");
+document.writeln(newArr);
+
+// Problem 13
+let devicessS = [];
+devices.push("keyboard");
+devices.push("Mouse");
+devices.push("Printer");
+devices.push("Monitor");
+document.writeln("Devices:"+ "<br>" + devices + "<br><br>");
+document.writeln("Out: <br>" + devices.shift() + "<br>");
+document.writeln("Out: <br>" + devices.shift() + "<br>");
+document.writeln("Out: <br>" + devices.shift() + "<br>");
+document.writeln("Out: <br>" + devices.shift() + "<br>");
+
+// Problem 14
+let devices = [];
+devices.push("keyboard");
+devices.push("Mouse");
+devices.push("Printer");
+devices.push("Monitor");
+document.writeln("Devices:"+ "<br>" + devices + "<br><br>");
+document.writeln("Out: <br>" + devices.pop() + "<br>");
+document.writeln("Out: <br>" + devices.pop() + "<br>");
+document.writeln("Out: <br>" + devices.pop() + "<br>");
+document.writeln("Out: <br>" + devices.pop() + "<br>");
+
+// Problem 15
+let phone = ["Apple","SamSung","Motorolla","Nokia","Sony","Haier"];
+document.writeln("<select>");
+document.writeln("<option>" + phone[0] + "</option>");
+document.writeln("<option>" + phone[1] + "</option>");
+document.writeln("<option>" + phone[2] + "</option>");
+document.writeln("<option>" + phone[3] + "</option>");
+document.writeln("<option>" + phone[4] + "</option>");
+document.writeln("<option>" + phone[5] + "</option>");
+document.writeln("</select>");
